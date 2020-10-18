@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/dev.io/static/css/main.d3686711.chunk.css",
-    "main.js": "/dev.io/static/js/main.76a6a608.chunk.js",
-    "main.js.map": "/dev.io/static/js/main.76a6a608.chunk.js.map",
+    "main.css": "/dev.io/static/css/main.b28468d9.chunk.css",
+    "main.js": "/dev.io/static/js/main.8a4ff36d.chunk.js",
+    "main.js.map": "/dev.io/static/js/main.8a4ff36d.chunk.js.map",
     "runtime-main.js": "/dev.io/static/js/runtime-main.c87e9a05.js",
     "runtime-main.js.map": "/dev.io/static/js/runtime-main.c87e9a05.js.map",
-    "static/js/2.2b046367.chunk.js": "/dev.io/static/js/2.2b046367.chunk.js",
-    "static/js/2.2b046367.chunk.js.map": "/dev.io/static/js/2.2b046367.chunk.js.map",
+    "static/css/2.2a86faee.chunk.css": "/dev.io/static/css/2.2a86faee.chunk.css",
+    "static/js/2.926c24c6.chunk.js": "/dev.io/static/js/2.926c24c6.chunk.js",
+    "static/js/2.926c24c6.chunk.js.map": "/dev.io/static/js/2.926c24c6.chunk.js.map",
     "index.html": "/dev.io/index.html",
-    "precache-manifest.4c14f3a96a91cdf54d6a1966276dd2a5.js": "/dev.io/precache-manifest.4c14f3a96a91cdf54d6a1966276dd2a5.js",
+    "precache-manifest.480e0db93596df2b4604f39335a3e004.js": "/dev.io/precache-manifest.480e0db93596df2b4604f39335a3e004.js",
     "service-worker.js": "/dev.io/service-worker.js",
-    "static/css/main.d3686711.chunk.css.map": "/dev.io/static/css/main.d3686711.chunk.css.map",
-    "static/js/2.2b046367.chunk.js.LICENSE.txt": "/dev.io/static/js/2.2b046367.chunk.js.LICENSE.txt",
+    "static/css/2.2a86faee.chunk.css.map": "/dev.io/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.b28468d9.chunk.css.map": "/dev.io/static/css/main.b28468d9.chunk.css.map",
+    "static/js/2.926c24c6.chunk.js.LICENSE.txt": "/dev.io/static/js/2.926c24c6.chunk.js.LICENSE.txt",
     "static/media/facebook.svg": "/dev.io/static/media/facebook.06468580.svg",
     "static/media/github.svg": "/dev.io/static/media/github.42d4d371.svg",
     "static/media/instagram.svg": "/dev.io/static/media/instagram.62593ffa.svg",
@@ -21,8 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c87e9a05.js",
-    "static/js/2.2b046367.chunk.js",
-    "static/css/main.d3686711.chunk.css",
-    "static/js/main.76a6a608.chunk.js"
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.926c24c6.chunk.js",
+    "static/css/main.b28468d9.chunk.css",
+    "static/js/main.8a4ff36d.chunk.js"
   ]
 }
