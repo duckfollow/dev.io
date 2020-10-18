@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/dev.io/static/css/main.f8113d93.chunk.css",
-    "main.js": "/dev.io/static/js/main.c4e75248.chunk.js",
-    "main.js.map": "/dev.io/static/js/main.c4e75248.chunk.js.map",
+    "main.css": "/dev.io/static/css/main.d3686711.chunk.css",
+    "main.js": "/dev.io/static/js/main.76a6a608.chunk.js",
+    "main.js.map": "/dev.io/static/js/main.76a6a608.chunk.js.map",
     "runtime-main.js": "/dev.io/static/js/runtime-main.c87e9a05.js",
     "runtime-main.js.map": "/dev.io/static/js/runtime-main.c87e9a05.js.map",
-    "static/js/2.8d895065.chunk.js": "/dev.io/static/js/2.8d895065.chunk.js",
-    "static/js/2.8d895065.chunk.js.map": "/dev.io/static/js/2.8d895065.chunk.js.map",
+    "static/js/2.2b046367.chunk.js": "/dev.io/static/js/2.2b046367.chunk.js",
+    "static/js/2.2b046367.chunk.js.map": "/dev.io/static/js/2.2b046367.chunk.js.map",
     "index.html": "/dev.io/index.html",
-    "precache-manifest.c64d36a7f1eae75a22c6b1118f862e4e.js": "/dev.io/precache-manifest.c64d36a7f1eae75a22c6b1118f862e4e.js",
+    "precache-manifest.4c14f3a96a91cdf54d6a1966276dd2a5.js": "/dev.io/precache-manifest.4c14f3a96a91cdf54d6a1966276dd2a5.js",
     "service-worker.js": "/dev.io/service-worker.js",
-    "static/css/main.f8113d93.chunk.css.map": "/dev.io/static/css/main.f8113d93.chunk.css.map",
-    "static/js/2.8d895065.chunk.js.LICENSE.txt": "/dev.io/static/js/2.8d895065.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/dev.io/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.d3686711.chunk.css.map": "/dev.io/static/css/main.d3686711.chunk.css.map",
+    "static/js/2.2b046367.chunk.js.LICENSE.txt": "/dev.io/static/js/2.2b046367.chunk.js.LICENSE.txt",
+    "static/media/facebook.svg": "/dev.io/static/media/facebook.06468580.svg",
+    "static/media/github.svg": "/dev.io/static/media/github.42d4d371.svg",
+    "static/media/instagram.svg": "/dev.io/static/media/instagram.62593ffa.svg",
+    "static/media/logo.svg": "/dev.io/static/media/logo.7a00b986.svg",
+    "static/media/profile.jpg": "/dev.io/static/media/profile.b9ec4ef9.jpg",
+    "static/media/twitter.svg": "/dev.io/static/media/twitter.f58833da.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c87e9a05.js",
-    "static/js/2.8d895065.chunk.js",
-    "static/css/main.f8113d93.chunk.css",
-    "static/js/main.c4e75248.chunk.js"
+    "static/js/2.2b046367.chunk.js",
+    "static/css/main.d3686711.chunk.css",
+    "static/js/main.76a6a608.chunk.js"
   ]
 }
