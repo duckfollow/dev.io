@@ -15,7 +15,7 @@ export default class ShareView extends React.Component {
   render() {
     return (
       <div>
-        <a target="_blank" href={this.state.urlShareFb}>facebook</a>
+        <a target="_blank" href={this.state.urlShareFb} rel="noopener noreferrer">facebook</a>
       </div>
     );
   }

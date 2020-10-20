@@ -2,7 +2,6 @@ import React from 'react';
 import './Main.css';
 import Contents from '../components/Contents';
 import AppBarView from '../components/AppBarView';
-import { Button } from 'reactstrap';
 
 export default class Main extends React.Component {
   constructor(props) {
