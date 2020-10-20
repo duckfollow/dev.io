@@ -39,7 +39,6 @@ export default class Oauth2 extends React.Component {
                     </Col>
                   </Row>
                 </Container>
-
                 <ShareView/>
             </div>
         );

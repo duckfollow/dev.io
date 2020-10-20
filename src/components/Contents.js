@@ -16,6 +16,7 @@ export default class Contents extends React.Component {
     return (
       <div>
         <Chip label="Oauth 2" variant="outlined" onClick={this.handleClick} />
+        <Chip label="Git" variant="outlined" onClick="" />
       </div>
     );
   }
