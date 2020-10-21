@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    justify-content: center;
+    flex-wrap: 'wrap';
+}
+
+.chip-view {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}

@@ -1,22 +1,23 @@
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
+import './Contents.css';
 
 export default class Contents extends React.Component {
   
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this);
+    console.log(props);
   }
 
-  handleClick() {
-    this.props.context.history.push('/oauth2');
+  handleClick(path) {
+    this.props.context.history.push(path);
   }
 
   render() {
     return (
-      <div>
-        <Chip label="Oauth 2" variant="outlined" onClick={this.handleClick} />
-        <Chip label="Git" variant="outlined" onClick="" />
+      <div className="root">
+        <Chip className="chip-view" label="Oauth 2" variant="outlined" onClick={this.handleClick.bind(this,'/oauth2')}/>
+        <Chip className="chip-view" label="Git" variant="outlined" onClick={this.handleClick.bind(this,'/git')}/>
       </div>
     );
   }
