@@ -7,6 +7,7 @@ import { useLocation } from "react-router-dom";
 import Main from './view/Main';
 import Oauth2 from './view/Oauth2';
 import GitCommand from './view/GitCommand';
+import Encryption from './view/Encryption';
 import AboutMe from './view/AboutMe';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Main} />
         <Route exact path="/oauth2" component={Oauth2} />
         <Route exact path="/git" component={GitCommand}/>
+        <Route exact path="/encrypt" component={Encryption}/>
         <Route exact path="/aboutme" component={AboutMe} />
       </HashRouter>
   );

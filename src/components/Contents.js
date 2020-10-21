@@ -18,6 +18,7 @@ export default class Contents extends React.Component {
       <div className="root">
         <Chip className="chip-view" label="Oauth 2" variant="outlined" onClick={this.handleClick.bind(this,'/oauth2')}/>
         <Chip className="chip-view" label="Git" variant="outlined" onClick={this.handleClick.bind(this,'/git')}/>
+        <Chip className="chip-view" label="encrypt & decrypt" variant="outlined" onClick={this.handleClick.bind(this,'/encrypt')}/>
       </div>
     );
   }
