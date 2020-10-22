@@ -8,6 +8,7 @@ import Main from './view/Main';
 import Oauth2 from './view/Oauth2';
 import GitCommand from './view/GitCommand';
 import Encryption from './view/Encryption';
+import NodeJsExpress from './view/NodeJsExpress';
 import AboutMe from './view/AboutMe';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/oauth2" component={Oauth2} />
         <Route exact path="/git" component={GitCommand}/>
         <Route exact path="/encrypt" component={Encryption}/>
+        <Route exact path="/nodejsexpress" component={NodeJsExpress}/>
         <Route exact path="/aboutme" component={AboutMe} />
       </HashRouter>
   );
