@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import './Oauth2.css';
 import AppBarView from '../components/AppBarView';
 import ShareView from '../components/ShareView';
+import CommentView from '../components/CommentView';
 
 
 export default class Oauth2 extends React.Component {
@@ -38,8 +39,9 @@ export default class Oauth2 extends React.Component {
                       </ul>
                     </Col>
                   </Row>
-                </Container>
-                <ShareView/>
+                  <ShareView/>
+                  <CommentView path="/oauth2"/>
+                </Container>  
             </div>
         );
       }

@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import './GitCommand.css';
 import AppBarView from '../components/AppBarView';
 import ShareView from '../components/ShareView';
-
+import CommentView from '../components/CommentView';
 
 export default class GitCommand extends React.Component {
   constructor(props) {
@@ -44,8 +44,10 @@ export default class GitCommand extends React.Component {
                       
                     </Col>
                   </Row>
+                  <ShareView/>
+                  <CommentView path="/git"/>
                 </Container>
-                <ShareView/>
+                
             </div>
         );
       }

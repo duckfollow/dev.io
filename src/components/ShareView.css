@@ -1,0 +1,7 @@
+.share-view {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 50px;
+}

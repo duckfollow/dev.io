@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import './NodeJsExpress.css';
 import AppBarView from '../components/AppBarView';
 import ShareView from '../components/ShareView';
+import CommentView from '../components/CommentView';
 
 
 export default class NodeJsExpress extends React.Component {
@@ -21,8 +22,9 @@ export default class NodeJsExpress extends React.Component {
                         <h1>NodeJsExpress</h1>
                     </Col>
                   </Row>
+                  <ShareView/>
+                  <CommentView path="/nodejsexpress"/>
                 </Container>
-                <ShareView/>
             </div>
         );
       }

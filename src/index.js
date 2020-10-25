@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FirebaseDatabaseProvider } from "@react-firebase/database";
+import * as firebase from "firebase/app";
+import { firebaseConfig } from "./FirebaseConfig";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <FirebaseDatabaseProvider {...firebaseConfig} firebase={firebase}>
+        <App />
+    </FirebaseDatabaseProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 
 import profile from '../assests/img/profile.jpg';
-import logo from '../assests/img/logo.svg';
+// import logo from '../assests/img/logo.svg';
 import "./AppBarView.css";
 
 export default class AppBarView extends React.Component {
@@ -37,10 +37,10 @@ export default class AppBarView extends React.Component {
     return (
         <AppBar className="root" position="static" color="inherit" ref={this.inputRef}>
           <Toolbar>
-                <IconButton edge="start" className="menuButton" color="inherit" aria-label="menu" onClick={this.home.bind(this)}>
+                {/* <IconButton edge="start" className="menuButton" color="inherit" aria-label="menu" onClick={this.home.bind(this)}>
                   <img className="img-logo" src={logo} alt="img-logo"/>
-                </IconButton>
-            <Typography variant="h6" className="title">
+                </IconButton> */}
+            <Typography variant="h6" className="title" onClick={this.home.bind(this)}>
               dev.io
             </Typography>
               <div>

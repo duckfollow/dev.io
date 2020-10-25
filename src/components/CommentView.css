@@ -1,0 +1,7 @@
+.card-view-comment {
+    word-wrap: break-word;
+    background-color: #e4e6eb;
+    padding: 10px;
+    margin: 5px !important;
+    border-radius: 10px;
+}

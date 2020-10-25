@@ -1,5 +1,7 @@
 import React from 'react';
+import { UncontrolledPopover, PopoverBody } from "reactstrap";
 import './ShareView.css';
+import facebook from '../assests/img/facebook.svg';
 
 export default class ShareView extends React.Component {
   
@@ -14,9 +16,14 @@ export default class ShareView extends React.Component {
 
   render() {
     return (
-      <div>
-        <a target="_blank" href={this.state.urlShareFb} rel="noopener noreferrer">facebook</a>
-      </div>
+        <div className="share-view">
+          <a id="share-fb" target="_blank" href={this.state.urlShareFb} rel="noopener noreferrer">
+              <img src={facebook} className="social-width" alt="logo" />
+          </a>
+          <UncontrolledPopover trigger="hover" placement="top" target="share-fb">
+            <PopoverBody>Share facebook</PopoverBody>
+          </UncontrolledPopover>
+        </div>
     );
   }
 }

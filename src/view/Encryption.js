@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import './Encryption.css';
 import AppBarView from '../components/AppBarView';
 import ShareView from '../components/ShareView';
+import CommentView from '../components/CommentView';
 
 
 export default class Encryption extends React.Component {
@@ -33,8 +34,9 @@ export default class Encryption extends React.Component {
                       </ul>
                     </Col>
                   </Row>
+                  <ShareView/>
+                  <CommentView path="/encrypt"/>
                 </Container>
-                <ShareView/>
             </div>
         );
       }
