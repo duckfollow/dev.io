@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dev.io/static/css/main.26e63d1d.chunk.css",
-    "main.js": "/dev.io/static/js/main.30c3fafb.chunk.js",
-    "main.js.map": "/dev.io/static/js/main.30c3fafb.chunk.js.map",
+    "main.css": "/dev.io/static/css/main.23ed517f.chunk.css",
+    "main.js": "/dev.io/static/js/main.956d3a2f.chunk.js",
+    "main.js.map": "/dev.io/static/js/main.956d3a2f.chunk.js.map",
     "runtime-main.js": "/dev.io/static/js/runtime-main.c87e9a05.js",
     "runtime-main.js.map": "/dev.io/static/js/runtime-main.c87e9a05.js.map",
-    "static/css/2.2a86faee.chunk.css": "/dev.io/static/css/2.2a86faee.chunk.css",
-    "static/js/2.e6180632.chunk.js": "/dev.io/static/js/2.e6180632.chunk.js",
-    "static/js/2.e6180632.chunk.js.map": "/dev.io/static/js/2.e6180632.chunk.js.map",
+    "static/css/2.6bde65ae.chunk.css": "/dev.io/static/css/2.6bde65ae.chunk.css",
+    "static/js/2.c512e7fe.chunk.js": "/dev.io/static/js/2.c512e7fe.chunk.js",
+    "static/js/2.c512e7fe.chunk.js.map": "/dev.io/static/js/2.c512e7fe.chunk.js.map",
     "index.html": "/dev.io/index.html",
-    "precache-manifest.396b9dbd0fad99f187f73bcf75dde029.js": "/dev.io/precache-manifest.396b9dbd0fad99f187f73bcf75dde029.js",
+    "precache-manifest.3dab418bce6c27a29baa7457eb0b2a50.js": "/dev.io/precache-manifest.3dab418bce6c27a29baa7457eb0b2a50.js",
     "service-worker.js": "/dev.io/service-worker.js",
-    "static/css/2.2a86faee.chunk.css.map": "/dev.io/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.26e63d1d.chunk.css.map": "/dev.io/static/css/main.26e63d1d.chunk.css.map",
-    "static/js/2.e6180632.chunk.js.LICENSE.txt": "/dev.io/static/js/2.e6180632.chunk.js.LICENSE.txt",
+    "static/css/2.6bde65ae.chunk.css.map": "/dev.io/static/css/2.6bde65ae.chunk.css.map",
+    "static/css/main.23ed517f.chunk.css.map": "/dev.io/static/css/main.23ed517f.chunk.css.map",
+    "static/js/2.c512e7fe.chunk.js.LICENSE.txt": "/dev.io/static/js/2.c512e7fe.chunk.js.LICENSE.txt",
     "static/media/facebook.svg": "/dev.io/static/media/facebook.06468580.svg",
     "static/media/github.svg": "/dev.io/static/media/github.42d4d371.svg",
     "static/media/instagram.svg": "/dev.io/static/media/instagram.62593ffa.svg",
@@ -22,9 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c87e9a05.js",
-    "static/css/2.2a86faee.chunk.css",
-    "static/js/2.e6180632.chunk.js",
-    "static/css/main.26e63d1d.chunk.css",
-    "static/js/main.30c3fafb.chunk.js"
+    "static/css/2.6bde65ae.chunk.css",
+    "static/js/2.c512e7fe.chunk.js",
+    "static/css/main.23ed517f.chunk.css",
+    "static/js/main.956d3a2f.chunk.js"
   ]
 }
