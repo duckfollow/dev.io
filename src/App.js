@@ -10,6 +10,7 @@ import GitCommand from './view/GitCommand';
 import Encryption from './view/Encryption';
 import NodeJsExpress from './view/NodeJsExpress';
 import AboutMe from './view/AboutMe';
+import Donate from './view/Donate';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/encrypt" component={Encryption}/>
         <Route exact path="/nodejsexpress" component={NodeJsExpress}/>
         <Route exact path="/aboutme" component={AboutMe} />
+        <Route exact path="/donate/:id" component={Donate} />
       </HashRouter>
   );
 }
