@@ -17,21 +17,31 @@ export default class Donate extends React.Component {
     componentDidMount() {
         try {
             const { id } = this.props.match.params
-            var androidId = "a858bd72cb694a45"
-            const _dataMessages = firebase.database().ref("message/"+id);
+            var androidId = id
+            // "a858bd72cb694a45"
+            var tmpText = ""
+            const _dataMessages = firebase.database().ref("message/"+androidId);
             _dataMessages.on('value', (snapshot) => {
                 let dataText = []; 
                 snapshot.forEach(dataMS => {
                     let data = dataMS.val();
                     dataText.push({
                         key:dataMS.key,
+                        pack:data.pack,
                         title:data.title,
                         text:data.text
                     });
                 });
                 console.log(dataText.length);
+               
                 if (typeof(dataText[dataText.length -1]) !== "undefined" && typeof(dataText[dataText.length -1].title) !== "undefined") {
-                    toast("🥰  "+dataText[dataText.length -1].title+"\n"+dataText[dataText.length -1].text);
+                    let dataCheck = ["android","ใช้งานแชทเฮดอยู่","com.google.android.googlequicksearchbox","com.android.incallui","com.spotify.music","com.google.android.gm","com.ookbee.aduang","com.global.foodpanda.android","asuk.com.android.app"];
+                    var ck_pack = dataCheck.includes(dataText[dataText.length -1].pack);
+                    var ck_title = dataCheck.includes(dataText[dataText.length -1].title);
+                    if (ck_pack !== true && ck_title !== true && tmpText !== dataText[dataText.length -1].text) {
+                        tmpText = dataText[dataText.length -1].text;
+                        toast("🥰  "+dataText[dataText.length -1].title+"\n"+dataText[dataText.length -1].text);
+                    }
                 }
             });
         }catch {
