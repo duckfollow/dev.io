@@ -5,6 +5,7 @@ import facebook from '../assests/img/facebook.svg';
 import instagram from '../assests/img/instagram.svg';
 import twitter from '../assests/img/twitter.svg';
 import github from '../assests/img/github.svg';
+import left_arrow from '../assests/img/left-arrow.svg';
 
 export default class AboutMe extends React.Component {
     constructor(props) {
@@ -19,6 +20,7 @@ export default class AboutMe extends React.Component {
     render() {
         return (
             <div className="App-content">
+                <img className="img-back" src={left_arrow} onClick={this.home.bind(this)}/>
                 <img src={profile} className="img-circle img-profile-aboutme noselect" alt="logo" onClick={this.home.bind(this)} />
                 <p className="noselect">Prasit Suphancho</p>
                 <div>

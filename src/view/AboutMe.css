@@ -29,3 +29,11 @@
     background-color: #d2d3d69c;
     border-radius: 5px;
 }
+
+.img-back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    cursor: pointer;
+}

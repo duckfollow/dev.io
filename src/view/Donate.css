@@ -1,0 +1,7 @@
+.myAudio-hidden {
+    visibility: hidden;
+}
+
+.myAudio-show {
+    visibility: visible;
+}
